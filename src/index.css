@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "heebo";
+  src: url("public/assets/Fonts/Heebo-VariableFont_wght.ttf") format("truetype");
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

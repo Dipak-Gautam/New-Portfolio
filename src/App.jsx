@@ -1,10 +1,11 @@
 import React from "react";
+import Heroimage from "./Components/HeroImage/Heroimage";
 
 function App() {
   return (
     <>
       <div>
-        <p className="">hello</p>
+        <Heroimage></Heroimage>
       </div>
     </>
   );
