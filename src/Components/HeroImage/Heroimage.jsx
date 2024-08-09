@@ -8,8 +8,8 @@ const Heroimage = () => {
         style={{ backgroundImage: `url(${bgimage})` }}
         className="h-[70vh]  md:px-20 "
       >
-        <div className="flex justify-between mx-7 h-full">
-          <div className="items-center justify-center h-full border">
+        <div className="flex justify-between mx-10 h-full">
+          <div className="items-center justify-center h-full border font-heebo text-white">
             <p>Hi, I am</p>
             <p> Dipak Gautam</p>
           </div>
