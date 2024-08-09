@@ -3,14 +3,22 @@ import bgimage from "./bgImage/backgroundnew.avif";
 
 const Heroimage = () => {
   return (
-    <div>
+    <>
       <div
         style={{ backgroundImage: `url(${bgimage})` }}
-        className="h-[70vh] flex justify-center items-center "
+        className="h-[70vh]  md:px-20 "
       >
-        <p className="text-white text-2xl  font-semibold font-heebo">Hi</p>
+        <div className="flex justify-between mx-7 h-full">
+          <div className="items-center justify-center h-full border">
+            <p>Hi, I am</p>
+            <p> Dipak Gautam</p>
+          </div>
+          <div className=" border">
+            <img src="assets/images/nobgprofile.png" alt="" className="w-96" />
+          </div>
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 
