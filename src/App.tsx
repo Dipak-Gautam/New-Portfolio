@@ -16,7 +16,7 @@ function App() {
               Dipak Gautam
             </p>
             <p className=" text-base text-slate-300 font-heebo font-semibold">
-              A passionate Front-End React Developer
+              A passionate Front-End React Developer this is to update code push
             </p>
           </div>
           <div className="h-full">
